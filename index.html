@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mero´s | Soluciones Digitales Premium</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0;font-family:'Poppins',sans-serif}
+    body{background:#0f172a;color:white}
+    header{padding:60px 20px;text-align:center;background:linear-gradient(135deg,#020617,#1e293b)}
+    header h1{font-size:2.5rem;font-weight:700}
+    header span{color:#38bdf8}
+    header p{margin-top:15px;font-size:1.1rem;opacity:.9}
+    .btn{display:inline-block;margin-top:25px;padding:14px 28px;background:#38bdf8;color:#020617;border-radius:30px;font-weight:600;text-decoration:none;transition:.3s}
+    .btn:hover{background:#0ea5e9}
+
+    section{padding:60px 20px;max-width:1100px;margin:auto}
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+    .card{background:#020617;padding:25px;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,.3)}
+    .card h3{margin-bottom:10px;color:#38bdf8}
+
+    .about{text-align:center}
+
+    .contact{background:#020617;border-radius:20px;padding:40px;text-align:center}
+    .contact input,.contact textarea{width:100%;margin:10px 0;padding:12px;border:none;border-radius:8px}
+    .contact button{margin-top:15px;padding:12px 25px;border:none;border-radius:25px;background:#38bdf8;font-weight:600;cursor:pointer}
+
+    footer{text-align:center;padding:30px;background:#020617;opacity:.8}
+
+    @media(max-width:600px){
+      header h1{font-size:2rem}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mero´s <span>Digital Solutions</span></h1>
+  <p>Impulsamos tu negocio con tecnología moderna y soluciones profesionales</p>
+  <a href="#contacto" class="btn">Solicitar auditoría gratuita</a>
+</header>
+
+<section>
+  <h2 style="text-align:center;margin-bottom:40px">Nuestros Servicios</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Páginas Web Profesionales</h3>
+      <p>Diseños modernos, rápidos y adaptados a celular para atraer más clientes.</p>
+    </div>
+    <div class="card">
+      <h3>Sistemas de Reservas</h3>
+      <p>Automatiza citas, pedidos y horarios sin perder oportunidades.</p>
+    </div>
+    <div class="card">
+      <h3>Plataformas a Medida</h3>
+      <p>Desarrollamos sistemas personalizados según tu negocio.</p>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <h2>¿Por qué elegir Mero´s?</h2>
+  <p style="margin-top:20px;max-width:700px;margin:auto">Somos un equipo especializado en ayudar a empresas a crecer con tecnología moderna, diseño premium y soluciones reales que generan resultados.</p>
+</section>
+
+<section id="contacto">
+  <div class="contact">
+    <h2>Contáctanos</h2>
+    <p>Obtén una auditoría gratuita de 10 minutos para tu negocio</p>
+    <form>
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Correo" required>
+      <textarea rows="4" placeholder="Cuéntanos sobre tu negocio"></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Mero´s - Soluciones Digitales Premium</p>
+</footer>
+
+</body>
+</html>
